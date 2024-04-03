@@ -616,6 +616,12 @@ display: flex;
     gap: 24px;
 }
 
+.label{
+  top: 100px;
+  left: 828px;
+  border-radius: 4px;
+}
+
 .input_footer{
   width: 264px;
   height: 40px;
