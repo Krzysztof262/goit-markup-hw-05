@@ -613,6 +613,7 @@ display: flex;
 
 .form{
     display: flex;
+    gap: 24px;
 }
 
 .input_footer{
