@@ -720,3 +720,12 @@ margin-left: 16px;
 .svg_modal{
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.p_modal{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: var(#2E2F42);
+  margin-bottom: 16px;
+}
