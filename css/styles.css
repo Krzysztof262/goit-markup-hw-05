@@ -655,3 +655,10 @@ display: flex;
 .svg_footer{
 margin-left: 16px;
 }
+
+.container_mail {
+  width: 453px;
+  height: 80;
+  padding: 0 15px;
+  margin: 0 auto;
+}
