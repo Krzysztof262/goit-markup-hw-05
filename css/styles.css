@@ -726,6 +726,7 @@ margin-left: 16px;
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
-  color: var(#2E2F42);
+  color: var(--first-color-text);
   margin-bottom: 16px;
+  letter-spacing: 0.02em;
 }
