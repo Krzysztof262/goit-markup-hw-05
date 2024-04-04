@@ -479,6 +479,7 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
         </div>
       </div>
     </footer>
+    <form>
     <div class="div">
      <div class="div_modal">
       <button class="button_modal" type="button">
@@ -489,28 +490,46 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
               <label>Leave your contacts and we will call you back</label>
               <div class="div_label">
                 <label class="label_modal" for="user-name" type="text">Name</label>
-                <div>
+                 <div>
                       <input class="input_modal" id="user-name" name="user-name" type="text"></input>
-                    <svg width="18" height="24">
+                    <svg class="svg_name" width="18" height="24">
                       <use href="./images/icons.svg#icon-person"></use>
                     </svg>
                  </div>
-                </div>
+              </div>
+              <div class="div_label">
                 <label class="label_modal" for="user-name" type="text">Phone</label>
-
+               <div>
                 <input class="input_modal" id="user-name" name="user-name" type="text"></input>
-                <svg width="18" height="24">
+                <svg class="svg_name" width="18" height="24">
                       <use href="./images/icons.svg#icon-phone"></use>
                     </svg> 
-
-                    <label class="label_modal" for="user-name" type="text">Email</label>
                     
+               </div>
+              </div>
+              <div class="div_label">
+                    <label class="label_modal" for="user-name" type="text">Email</label>
+                 </div>
+                 <div>   
                  <input class="input_modal" id="user-name" name="user-name" type="text"></input>
-                <svg width="18" height="24">
+                <svg class="svg_name" width="18" height="24">
                       <use href="./images/icons.svg#icon-email"></use>
                     </svg> 
+              </div>
+              <div class="div_command">
+               <label class="label_modal"  for="user-comment">Comment</label>
+               <textarea class="textarea" name="user-comment" id="user-comment" placeholder="Text input" cols="30" rows="10"></textarea>
+              </div>
+              <div class="div_checkbox">
+                <input class="input_checkbox" id="user-privacy" type="checkbox" value="true" name="user-privacy"></input>
+                <label class="label_checkbox" for="user-privacy" >I accept the terms and conditions of the<input class="span_checkbox"><svg width="10" height="8"><use href=""></use></svg></span><a class="a_checkbox" href=""
+                >Privacy Policy</a
+              ></label>
+              </div>
+              <button class="svg_button" type="button">Send</button>
+     </div>
 
-
+</form>
               
       </div> 
     </div>
