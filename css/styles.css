@@ -768,6 +768,11 @@ margin-left: 16px;
   fill: #4D5AE5;
 }
 
+.form-input:focus+.form-icon,
+.form-input:hover+.form-icon {
+  fill: #4d5ae5;
+}
+
 .svg_name{
   position: absolute;
   left: 16px;
