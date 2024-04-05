@@ -855,3 +855,9 @@ margin-left: 16px;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.visually-hidden:checked + .label_checkbox span {
+  background-color: var(--second-color-text);
+  fill: var(--button-colour-text);
+  border: none;
+}
