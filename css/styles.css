@@ -764,6 +764,7 @@ margin-left: 16px;
 }
 
 .input_modal:hover,.input_modal:focus{
+  border-color: #4D5AE5;
   fill: #4D5AE5;
 }
 
