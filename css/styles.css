@@ -768,8 +768,8 @@ margin-left: 16px;
   fill: #4D5AE5;
 }
 
-.form-input:focus+.form-icon,
-.form-input:hover+.form-icon {
+.input_modal:focus+.svg_name,
+.input_modal:hover+.svg_name {
   fill: #4d5ae5;
 }
 
