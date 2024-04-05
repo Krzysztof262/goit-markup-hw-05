@@ -854,10 +854,37 @@ margin-left: 16px;
   background-color: #4D5AE5;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 4px 4px 4px 4px;
 }
 
 .visually-hidden:checked + .label_checkbox span {
   background-color: var(--second-color-text);
   fill: var(--button-colour-text);
   border: none;
+}
+
+.modal_container {
+  padding: 0 100px;
+}
+
+.subscribe_modal {
+  margin-bottom: 16px;
+  /* font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff; */
+/* width: 360px;
+  height: 24px;
+  top: 152px;
+  left: 540px;
+  gap: 0px; */
+  /* opacity: 0px; */
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
 }
